@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\OLED
+-I D:\keil\ARM\RV31\INC
+-I D:\keil\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+-I D:\keil\ARM\Inc\ST\STM32F10x
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d "..\STM32F10x_FWLib\src\stm32f10x_gpio.c"
